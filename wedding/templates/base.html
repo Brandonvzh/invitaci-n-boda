@@ -1,0 +1,60 @@
+{% load static %}
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>Invitación XV</title>
+        <meta name="description" content="Invitación a XV años">
+        <meta name="author" content="SitePoint">
+
+        <meta property="og:title" content="Invitación a XV años">
+        <meta property="og:type" content="website">
+
+        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Charm&family=Italianno&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+                <!------------------>
+        
+        <!-- Tailwind CDN -->
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+        <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+        <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <link rel="stylesheet" href="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/css/main.ad49aa9b.css" />
+        <!------------------>
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <!------------>
+        <!-- Custom css & js -->
+        {% block scripts %}{% endblock scripts %}
+        <link rel = "stylesheet" href = "{% static 'wedding/css/style.css' %}">
+
+    </head>
+
+    <body>
+        <articule>
+            <div>
+                {% block content %}
+                
+                {% endblock content %}
+            </div>
+        </articule>
+
+        {% block extrajs %}
+        {% endblock extrajs %}
+    </body>
+</html>

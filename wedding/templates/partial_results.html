@@ -1,0 +1,12 @@
+
+
+{% comment %} {% for result in results  %} {% endcomment %}
+<form method = "POST">
+        {% comment %} <p> Buen día, {{result.identifier}} </p>
+        <p> Se le han asignado {{result.num_guests_assigned}} invitados </p> {% endcomment %}
+    {% comment %} {% endfor %} {% endcomment %}
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Registrar</button>
+</form>
+

@@ -1,0 +1,234 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Bienvenida -->
+    <section class = "fwh-slider fwh-slider--1">
+        <p>
+            <span> 02 | 03 | 24 </span>
+        </p>
+        <h1> J </h1>
+        <h1> L </h1>
+
+        <p id = "countdown"> </p>
+    </section>
+
+    <section class = "fwh-slider fwh-slider--2">
+        <!-- Photo Grid -->
+        <p> Con mucha ilusión, queremos que seas parte de nuestra boda. </p>
+        <div class="row"> 
+            <div class="column">
+                <img src="/static/wedding/img/janeth/059.jpg" style="width:100%">
+                <img src="/static/wedding/img/janeth/083.jpg" style="width:100%">
+                <img src="/static/wedding/img/janeth/036.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="/static/wedding/img/janeth/090.jpg" style="width:100%">
+                <img src="/static/wedding/img/janeth/076.jpg" style="width:100%">
+            </div>  
+            <div class="column">
+                <img src="/static/wedding/img/janeth/029.jpg" style="width:100%">
+                <img src="/static/wedding/img/janeth/067.jpg" style="width:100%">
+            
+                <img src="/static/wedding/img/janeth/063.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="/static/wedding/img/janeth/072.jpg" style="width:100%">
+                <img src="/static/wedding/img/janeth/090.jpg" style="width:100%">
+                <img src="/static/wedding/img/janeth/019.jpg" style="width:100%">
+            </div>
+        </div>
+    </section>
+
+    <section class = "fwh-slider fwh-slider--3">
+        <!-- Itinerario -->
+        <div class="container mx-auto w-full h-full">
+
+            
+            <div class="rectangulo">
+                <p>Itinerario</p>
+                <p>¡Esperamos que te la pases genial!</p>
+            </div>
+
+            <div class="top relative wrap overflow-hidden p-10">
+                <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-2 h-2 rounded-full"></div>
+                    <div class="order-1 w-5/12 px-6 py-4">
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-hora-ceremonia"> 04:00 PM </p>
+                        <p class = "linea-1"> 
+                            <span class = "ico-ceremonia"></span>
+                        </p>
+                        <h3 class="mb-3 text-gray-800 text-ceremonia">Ceremonia</h3>
+                    </div>
+                </div>
+            
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-2 h-2 rounded-full"></div>
+                    <div class="order-1 w-5/12 px-6 py-4">
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-hora-civil"> 06:30 PM </p>
+                        <p class = "linea-2"> 
+                            <span class = "ico-civil"></span>
+                        </p>
+                        <h3 class="mb-3 text-gray-800 text-civil">Civil</h3>
+                    </div>
+                </div>
+                
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-2 h-2 rounded-full"></div>
+                    <div class="order-1 w-5/12 px-6 py-4">
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-hora-recepcion"> 07:30 PM </p>
+                        <p class = "linea-3"> 
+                            <span class = "ico-recepcion"></span>
+                        </p>
+                        <h3 class="mb-3 text-gray-800 text-recepcion">Recepción</h3>
+                    </div>
+                </div>
+            
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-2 h-2 rounded-full"></div>
+                    <div class="order-1 w-5/12 px-6 py-4">
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-hora-cena"> 09:00 PM </p>
+                        <p class = "linea-4"> 
+                            <span class = "ico-cena"></span>
+                        </p>
+                        <h3 class="mb-3 text-gray-800 text-cena">Cena</h3>
+                    </div>
+                </div>
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-2 h-2 rounded-full"></div>
+                    <div class="order-1 w-5/12 px-6 py-4">
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 text-hora-fiesta"> 10:00 PM </p>
+                        <p class = "linea-5"> 
+                            <span class = "ico-fiesta"></span>
+                        </p>
+                        <h3 class="mb-3 text-gray-800 text-fiesta">Que siga la fiesta!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "fwh-slider fwh-slider--4">
+        <!-- Lugar -->
+        <div class="rectangulo-2">
+            <p>Ubicación</p>
+        </div>
+
+        <div>
+            <p class = "txt-vertical-1"> CEREMONIA </p>
+            <p class = "txt-direccion-1">4:00PM | Parroquia San José del Barrial</p>
+            <a href = "https://goo.gl/maps/h21gEFkEokDRFozY8">
+                <img class = "img-iglesia" src = "{% static 'wedding/img/parroquia-maps.png' %}" />
+                <span class = "ico-iglesia-2"></span>
+            </a>
+        </div>
+
+        <div>
+            <p class = "txt-vertical-2"> RECEPCIÓN </p>
+            
+            <p class = "txt-direccion-2">7:30PM | Princess Wedding Garderns</p>
+            <a href = "https://goo.gl/maps/8GeLSDZeL2kkWrs49">
+                <img class = "img-salon" src = "{% static 'wedding/img/princess-maps.png' %}" />
+                <span class = "ico-fiesta-2"></span>
+            </a>
+        </div>
+
+    </section>
+
+    <section class = "fwh-slider fwh-slider--5">
+        <!-- Mesa de regalos / Vestimenta -->
+        <div class="rectangulo-3">
+            <p>Código de vestimenta</p>
+        </div>
+
+        <p class = "ico-vestimenta"></p>
+        <p class = "text-formal"> Formal </p>
+        <p class = "text-vestimenta"> ¡La idea es que te sientas cómodo(a)! </p>
+        <p class = "text-ejemplo"> Fiesta en jardín </p>
+
+        <div class="rectangulo-4">
+            <p>Mesa de regalos</p>
+        </div>
+
+        <diV>
+            <a href = "https://www.amazon.com.mx/wedding/janeth-guadalupe-bustos-gonzález-luis-jesus-martinez-aguilar-santiago-nuevo-leoacuten-march-2024/registry/37LV3ZJH8CFUN">
+                <span class = "ico-amazon"></span>
+            </a>
+            
+            <span class = "ico-sobre"></span>
+        </div>
+
+        
+
+    </section>
+
+    <section class = "fwh-slider fwh-slider--6">
+        <!-- Formulario -->
+        <div class="rectangulo-5">
+            <p>Confirmación de asistencia</p>
+        </div>
+
+        <div>
+            <form class = "searchForm">
+                <label id = "labelInvitacion" class = "label-form"> Escribir el código de invitación </label>
+                <div class="flex gap-4">
+                    <input id = "code" class="h-18 min-w-[20rem] rounded-lg border-white-500 indent-4 text-white-900 shadow-lg focus:outline-none focus:ring focus:ring-white-600" type="text" placeholder="Código de invitación" />
+                </div>
+            </br>
+                <div>
+                    <button type = "button" id = "code_submit" onclick = "myFunction()" class="button-buscar h-12 min-w-[8rem] rounded-lg border-2 border-white-600 bg-white-500 text-white-50 shadow-lg hover:bg-white-600 focus:outline-none focus:ring focus:ring-white-600">Buscar</button>
+                </div>
+            </form>
+
+            <label id = "invitados" class = "label-form1">  </label>
+            </br>
+            <label id = "asistentes" class = "label-form2">  </label>
+
+            <form class = "searchForm" method = "POST">
+                {% csrf_token %}
+                <div class="flex gap-4">
+                    <input  id = "input-invitados"  style = "display: none;" name = "invitados" class="h-18 min-w-[20rem] rounded-lg border-white-500 indent-4 text-white-900 shadow-lg focus:outline-none focus:ring focus:ring-white-600 input-invitados" type="text" placeholder="Cantidad de asistentes" />
+                </div>
+                <div class="flex gap-4">
+                    <input id = "input-asistentes"  style = "display: none;" name = "asistentes" class="h-18 min-w-[20rem] rounded-lg border-white-500 indent-4 text-white-900 shadow-lg focus:outline-none focus:ring focus:ring-white-600 input-asistentes" type="text" placeholder="Nombre de asistentes" />
+                </div>
+
+                <div class="flex gap-4">
+                    <input name = "id"  id = "idInput" style = "display: none;" type="text" placeholder="" />
+                </div>
+
+                <label id = "label-asistencia" class = "label-form3" style = "display: none;"> ¿Nos acompañarás? </label>
+                <label id = "label-noasistencia" class = "label-form4" style = "display: none;"> No se asistirá </label>
+                <div class="flex gap-4">
+                    <select id = "select-asistencia" name = "asistencia"  class = "selectAsistencia" style = "display: none;" onchange = "mostrarCampos()">
+                        <option>-----------</option>
+                        <option>Sí asistiré</option>
+                        <option>No asistiré</option>
+                    </select>
+                </div>
+
+                <button  id = "button-registrar" style = "display: none;" type = "submit" class="h-12 min-w-[8rem] rounded-lg border-2 border-white-600 bg-white-500 text-white-50 shadow-lg hover:bg-white-600 focus:outline-none focus:ring focus:ring-white-600 button-registrar">Registrar</button>
+            </form>
+        </div>
+
+    </section>
+
+    <section class = "fwh-slider fwh-slider--7">
+        <p class = "agradecimiento"> Muchas gracias por su tiempo, los esperamos </p>
+    </section>
+
+
+{% endblock content %}
+
+{% block extrajs %}
+    <script src = "{% static 'wedding/js/countdown.js' %}"> </script>
+    <script src = "{% static 'wedding/js/slider.js' %}"> </script>
+    <script src = "{% static 'wedding/js/index.js' %}"> </script>
+{% endblock extrajs %}

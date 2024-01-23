@@ -1,0 +1,1195 @@
+@media (min-width: 601px) {
+    body {
+        margin: 0;
+    }
+    
+    .fwh-slider {
+        height: 100vh;
+        background: #626452;
+        box-sizing: border-box;
+        
+    }
+    
+    /* ---- INICIA SECCIÓN 1 ---- */
+    
+    .fwh-slider--1 {
+        background-size: 40%;
+        background-image: url("/static/wedding/img/janeth/019.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .fwh-slider--1 p {
+        position: relative;
+        top: 2em;
+        text-align: center;
+        color: #FFFFFF;
+        -webkit-text-stroke: 0.2px #000000;
+        font-size: 1.5em;
+    }
+    
+    .fwh-slider--1 h1 {
+        position: relative;
+        font-family: 'Italianno';
+        font-size: 8em;
+        text-align: center;
+        color: #FFFFFF;
+        -webkit-text-stroke: 0.2px #000000;
+        line-height: 0.7em;
+        top: 1em;
+    }
+    
+    #countdown {
+        position: relative;
+        font-family: 'Cabin';
+        font-style: normal;
+        font-size: 50px;
+        color: #FFFFFF;
+        top: 65%;
+        -webkit-text-stroke: 0.1px #000000;
+    }
+    
+    /* ---- TERMINA SECCIÓNN 1 ---- */
+    
+    
+    /* ---- INICIA SECCIÓN 2 ---- */
+    .fwh-slider--2 {
+        background-color: #f5f6fa;
+    }
+    
+    .fwh-slider--2 p {
+        position: relative;
+        top: 0.5em;
+        font-family: 'Italianno';
+        text-align: center;
+        color: #000;
+        padding: 0em 5em;
+        font-size: 3em;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 26em;
+        position: relative;
+        top: 2em;
+    }
+    
+    .column {
+        max-width: 16em;
+        padding: 0em 1em;
+    }
+    
+    .column img {
+        margin-top: 1em;
+    }
+    
+    /* ---- TERMINA SECCIÓN 2 --- */
+    
+    /* ---- INICIA SECCIÓN 3 ---- */
+    
+    .fwh-slider--3 {
+        background-color: #f5f6fa;
+        /* background-size: 40%;
+        background-image: url("/static/wedding/img/bkg3.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+    }
+    
+    .rectangulo {
+        position: relative;
+        top: 1em;
+        left: 12em;
+        width: 74em;
+        height: 5em;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .top {
+        position: relative;
+        top: 6em;
+    } 
+    
+    .linea-1 {
+        content: "";
+        left: 48em;
+        top: 5.45em;
+        position: absolute;
+        height: 0.04em;
+        width: 11em;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed #000;
+    }
+    
+    .linea-2 {
+        content: "";
+        right: 48em;
+        top: 13.4em;
+        position: absolute;
+        height: 0.041em;
+        width: 11em;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed #000;
+    }
+    
+    .linea-3 {
+        content: "";
+        left: 48em;
+        top: 21.2em;
+        position: absolute;
+        height: 0.041em;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed #000;
+        width: 11em;
+    }
+    
+    .linea-4 {
+        content: "";
+        right: 48em;
+        top: 29.2em;
+        position: absolute;
+        height: 0.041em;
+        width: 11em;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed 
+    }
+    
+    .linea-5 {
+        content: "";
+        left: 48em;
+        top: 37.05em;
+        position: absolute;
+        height: 0.041em;
+        width: 11em;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed 
+    }
+    
+    .text-ceremonia {
+        position: relative;
+        left: 4.5em;
+        font-size: 1.3em;
+    }
+    
+    .text-hora-ceremonia {
+        position: relative;
+        left: 8em;
+    }
+    
+    .text-recepcion {
+        position: relative;
+        left: 5em;
+        font-size: 1.3em;
+    }
+    
+    .text-hora-recepcion {
+        position: relative;
+        left: 8.4em;
+    }
+    
+    .text-fiesta {
+        position: relative;
+        left: 4em;
+        font-size: 1.3em;
+    }
+    
+    .text-hora-fiesta {
+        position: relative;
+        left: 9em;
+    }
+    
+    .text-civil {
+        position: relative;
+        right: -17em;
+        font-size: 1.3em;
+    }
+    
+    .text-hora-civil {
+        position: relative;
+        left: 24.6em;
+    }
+    
+    .text-cena {
+        position: relative;
+        right: -17em;
+        font-size: 1.3em;
+    }
+    
+    .text-hora-cena {
+        position: relative;
+        left: 24.6em;
+    }
+    
+    .ico-ceremonia {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/iglesia.png');
+        background-size: cover;
+        position: relative;
+        top: -2em;
+        right: 22.9em;
+        display: inline-flex;
+    }
+    
+    .ico-civil {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Civil.png');
+        background-size: cover;
+        position: relative;
+        top: -2.5em;
+        left: 26.9em;
+        display: inline-flex;
+    }
+    
+    .ico-recepcion {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Recepción\ Jardin.png');
+        background-size: cover;
+        position: relative;
+        top: -2.5em;
+        right: 22.9em;
+        display: inline-flex;
+    }
+    
+    .ico-cena {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Cena.png');
+        background-size: cover;
+        position: relative;
+        top: -2.5em;
+        left: 27.1em;
+        display: inline-flex;
+    }
+    
+    .ico-fiesta {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Fiesta.png');
+        background-size: cover;
+        position: relative;
+        top: -2.5em;
+        right: 22.9em;
+        display: inline-flex;
+    }
+    
+    /* ---- TERMINA SECCIÓN 3 --- */
+    
+    /* ---- INICIA SECCIÓN 4 ---- */
+    
+    /* ---- INICIA SECCIÓN 4 ---- */
+    
+    .fwh-slider--4 {
+        background-color: #f5f6fa;
+    }
+
+    .rectangulo-2 {
+        position: relative;
+        top: 1em;
+        left: 48em;
+        width: 26em;
+        height: 4em;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1.2em;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-iglesia {
+        position: relative;
+        width: 40em;
+        top: -6em;
+        left: 42em;
+        border-radius: 6%;
+    }
+
+    .img-salon {
+        position: relative;
+        width: 40em;
+        top: -19em;
+        border-radius: 6%;
+        left: 42em;
+    }
+
+    .ico-iglesia-2 {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/iglesia.png');
+        background-size: cover;
+        position: relative;
+        top: -19em;
+        left: 87.9em;
+        display: inline-flex;
+    }
+
+    .ico-fiesta-2 {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Recepción\ Jardin.png');
+        background-size: cover;
+        position: relative;
+        top: -32em;
+        left: 87.9em;
+        display: inline-flex;
+    }
+
+    .txt-vertical-1 {
+        position: relative;
+        left: 15em;
+        transform: rotate(180deg);
+        transform-origin: left bottom;
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        font-family: 'Cabin';
+        top: 0em;
+        font-size: 2.3em;
+    }
+
+    .txt-vertical-2 {
+        position: relative;
+        left: 15em;
+        transform: rotate(180deg);
+        transform-origin: left bottom;
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        font-family: 'Cabin';
+        top: -6em;
+        font-size: 2.3em;
+    }
+
+    .txt-direccion-1 {
+        position: relative;
+        top: -7em;
+        left: 47em;
+        font-size: 1.1em;
+    }
+
+    .txt-direccion-2 {
+        position: relative;
+        top: -19em;
+        left: 47em;
+        font-size: 1.1em;
+    }
+    /* ---- TERMINA SECCIÓN 4 --- */
+    
+    /* ---- INICIA SECCIÓN 5 --- */
+    .fwh-slider--5 {
+        background-color: #f5f6fa;
+    }
+
+    .rectangulo-3 {
+        position: relative;
+        top: 0em;
+        width: 21.75em;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        left: 51em;
+    }
+
+    .rectangulo-4 {
+        position: relative;
+        top: 12em;
+        width: 21.72em;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        left: 51em;
+    }
+
+    .ico-vestimenta {
+        width: 27vh;
+        height: 27vh;
+        background-image: url('/static/wedding/iconos/Vestimenta\ y\ calzado.png');
+        background-size: cover;
+        position: relative;
+        top: 4em;
+        left: 52.5em;
+        display: inline-flex;
+    }
+
+    .ico-amazon {
+        width: 14vh;
+        height: 4.24vh;
+        background-image: url('/static/wedding/iconos/Amazon_logo.svg');
+        background-size: cover;
+        position: relative;
+        top: 20em;
+        left: 49.5em;
+        display: inline-flex;
+    }
+
+    .ico-sobre {
+        width: 7vh;
+        height: 5vh;
+        background-image: url('/static/wedding/iconos/empty-email.svg');
+        background-size: cover;
+        position: relative;
+        top: 20em;
+        left: 60.5em;
+        display: inline-flex;
+    }
+
+    .text-vestimenta {
+        font-size: 1em;
+        position: relative;
+        top: 7em;
+        left: 54em;
+    }
+
+    .text-ejemplo {
+        font-size: 1em;
+        font-weight: bold;
+        position: relative;
+        top: 7em;
+        left: 58em;
+    }
+
+    .text-formal {
+        font-size: 1.3em;
+        position: relative;
+        top: 5em;
+        left: 46em;
+    }
+
+    /* ---- TERMINA SECCIÓN 5 --- */
+    
+    /* ---- INICIA SECCIÓN 6 --- */
+    .fwh-slider--6 {
+        background-color: #f5f6fa;
+    }
+
+    .rectangulo-5 {
+        position: relative;
+        top: 5em;
+        width: 20em;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        left: 50em;
+    }
+
+    .searchForm {
+        position: relative;
+        top: 27em;
+        left: 47em;
+    }
+
+    .selectAsistencia {
+        position: relative;
+        left: 8em;
+    }
+
+    .label-form1 {
+        position: relative;
+        top: 11em;
+        left: 33.7em;
+        font-size: 1.6em;
+    }
+
+    .label-form2 {
+        position: relative;
+        top: 11em;
+        left: 32em;
+        font-size: 1.6em;
+    }
+
+    .label-form3 {
+        position: relative;
+        top: -3em;
+        left: 3.4em;
+        font-size: 1.6em;
+    }
+
+    .label-form4 {
+        position: relative;
+        font-size: 1.3em;
+        left: 7em;
+        bottom: 3em;
+    }
+
+    .input-invitados {
+        position: relative;
+        top: -6em;
+        left: 3em;
+    }
+
+    .input-asistentes {
+        position: relative;
+        top: -3em;
+        left: 3em;
+    }
+
+    .button-registrar {
+        position: relative;
+        top: 0em;
+        left: 9em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* ---- TERMINA SECCIÓN 6 --- */
+
+    /* ---- INICIA SECCIÓN 7 --- */
+    .fwh-slider--7 {
+        /* background-size: 40%; */
+        background-position: 2em;
+        background-image: url("/static/wedding/img/fondo_despedida.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .agradecimiento {
+        position: relative;
+        font-family: 'Italianno';
+        text-align: center;
+        font-size: 3.6em;
+        top: 8em;
+    }
+    
+    /* ---- TERMINA SECCIÓN 7 --- */
+
+    .form-bride {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        margin: 29em;
+    }
+
+    .input-inv {
+        position: relative;
+        bottom: 3em;
+    }
+    
+    .input-asis {
+        position: relative;
+        bottom: 1em;
+    }
+
+    .button-reg {
+        position: relative;
+        top: 1em;
+    }
+
+    .add-invitados {
+        position: relative;
+        font-size: 3.3em;
+        top: 3em;
+        left: 14em;;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    
+    .fwh-slider {
+        height: 100vh;
+        background: #626452;
+        box-sizing: border-box;
+        
+    }
+    
+    /* ---- INICIA SECCIÓN 1 ---- */
+    
+    .fwh-slider--1 {
+        background-size: 40%;
+        background-image: url("/static/wedding/img/fondo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .fwh-slider--1 p {
+        position: relative;
+        top: 5%;
+        text-align: center;
+        color: #FFFFFF;
+        -webkit-text-stroke: 0.2px #000000;
+    }
+    
+    .fwh-slider--1 h1 {
+        position: relative;
+        font-family: 'Italianno';
+        font-size: 108px;
+        text-align: center;
+        color: #FFFFFF;
+        -webkit-text-stroke: 0.2px #000000;
+        line-height: 60%;
+        top: 20%;
+    }
+    
+    #countdown {
+        position: relative;
+        font-family: 'Cabin';
+        font-style: normal;
+        font-size: 50px;
+        color: #FFFFFF;
+        top: 65%;
+        -webkit-text-stroke: 0.1px #000000;
+    }
+    
+    /* ---- TERMINA SECCIÓNN 1 ---- */
+    
+    
+    /* ---- INICIA SECCIÓN 2 ---- */
+    .fwh-slider--2 {
+        background-color: #f5f6fa;
+        /* background-size: 40%;
+        background-image: url("/static/wedding/img/bkg3.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+    }
+    
+    .fwh-slider--2 p {
+        position: relative;
+        top: 10%;
+        font-family: 'Italianno';
+        text-align: center;
+        color: #000;
+        padding: 0% 10%;
+        font-size: 40px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 7px;
+        position: relative;
+        top: 15%;
+    }
+    
+    .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    
+    /* ---- TERMINA SECCIÓN 2 --- */
+    
+    /* ---- INICIA SECCIÓN 3 ---- */
+    
+    .fwh-slider--3 {
+        background-color: #f5f6fa;
+        /* background-size: 40%;
+        background-image: url("/static/wedding/img/bkg3.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
+    }
+
+    .rectangulo {
+        position: relative;
+        top: 2%;
+        left: 12%;
+        width: 76%;
+        height: 91px;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 19px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .linea-1 {
+        content: "";
+        right: 39%;
+        bottom: 88%;
+        position: absolute;
+        height: 1px;
+        width: 10%;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed #000;
+    }
+
+    .linea-2 {
+        content: "";
+        right: 39%;
+        bottom: 53.8%;
+        position: absolute;
+        height: 1px;
+        width: 10%;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed #000;
+    }
+
+    .linea-3 {
+        content: "";
+        right: 39%;
+        bottom: 18%;
+        position: absolute;
+        height: 1px;
+        width: 10%;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom: 1px dashed #000;
+    }
+
+    .linea-4 {
+        content: "";
+        left:37%;
+        top: 29%;
+        position: absolute;
+        height: 1px;
+        width: 12%;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom:1px dashed #000;
+    }
+
+    .linea-5 {
+        content: "";
+        left:37%;
+        top: 63%;
+        position: absolute;
+        height: 1px;
+        width: 12%;
+        background: #000;
+        transform: translateY(-50%);
+        border-bottom:1px dashed #000;
+    }
+
+    .text-ceremonia {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-hora-ceremonia {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-recepcion {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-hora-recepcion {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-fiesta {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-hora-fiesta {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-civil {
+        position: relative;
+        right: -14%;
+    }
+
+    .text-cena {
+        position: relative;
+        right: -14%;
+    }
+
+    .ico-ceremonia {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/iglesia.png');
+        background-size: cover;
+        position: relative;
+        top: -2em;
+        left: -7.5em;
+        display: inline-flex;
+    }
+
+    .ico-civil {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Civil.png');
+        background-size: cover;
+        position: relative;
+        top: -9.5em;
+        left: 3.5em;
+        display: inline-flex;
+    }
+
+    .ico-recepcion {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Recepción\ Jardin.png');
+        background-size: cover;
+        position: relative;
+        top: -17.5em;
+        left: -7.5em;
+        display: inline-flex;
+    }
+
+    .ico-cena {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Cena.png');
+        background-size: cover;
+        position: relative;
+        top: 12.5em;
+        left: 6.5em;
+        display: inline-flex;
+    }
+
+    .ico-fiesta {
+        width: 8vh;
+        height: 8vh;
+        background-image: url('/static/wedding/iconos/Fiesta.png');
+        background-size: cover;
+        position: relative;
+        top: 6.5em;
+        left: -3.5em;
+        display: inline-flex;
+    }
+    
+    /* ---- TERMINA SECCIÓN 3 --- */
+    
+    /* ---- INICIA SECCIÓN 4 ---- */
+    
+    .fwh-slider--4 {
+        background-color: #f5f6fa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rectangulo-2 {
+        position: relative;
+        top: -13%;
+        width: 80%;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-iglesia {
+        position: relative;
+        width: 70%;
+        bottom: 39%;
+        left: 23%;
+        border-radius: 6%;
+    }
+
+    .img-salon {
+        position: relative;
+        width: 70%;
+        top: -14%;
+        border-radius: 6%;
+        left: 23%;
+    }
+
+    .txt-vertical-1 {
+        position: relative;
+        left: 13%;
+        transform: rotate(180deg);
+        transform-origin: left bottom;
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        font-family: 'Cabin';
+        top: -22%;
+        font-size: 19px;
+    }
+
+    .txt-vertical-2 {
+        position: relative;
+        left: 13%;
+        transform: rotate(180deg);
+        transform-origin: left bottom;
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        font-family: 'Cabin';
+        top: 3%;
+        font-size: 19px;
+    }
+
+    .txt-direccion-1 {
+        position: relative;
+        bottom: 50%;
+        left: 27%;
+        font-size: smaller;
+    }
+
+    .txt-direccion-2 {
+        position: relative;
+        bottom: 23%;
+        left: 27%;
+        font-size: smaller;
+    }
+    /* ---- TERMINA SECCIÓN 4 --- */
+
+    /* ---- INICIA SECCIÓN 5 --- */
+    .fwh-slider--5 {
+        background-color: #f5f6fa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rectangulo-3 {
+        position: relative;
+        top: -14em;
+        width: 18.75em;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .rectangulo-4 {
+        position: relative;
+        top: 0%;
+        width: 80%;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .ico-vestimenta {
+        width: 16vh;
+        height: 16vh;
+        background-image: url('/static/wedding/iconos/Vestimenta\ y\ calzado.png');
+        background-size: cover;
+        position: relative;
+        top: -9em;
+        left: -0.5em;
+        display: inline-flex;
+    }
+
+    .ico-amazon {
+        width: 10vh;
+        height: 3vh;
+        background-image: url('/static/wedding/iconos/Amazon_logo.svg');
+        background-size: cover;
+        position: relative;
+        top: 5em;
+        left: -2.5em;
+        display: inline-flex;
+    }
+
+    .ico-liverpool {
+        width: 6vh;
+        height: 6vh;
+        background-image: url('/static/wedding/iconos/liverpool.png');
+        background-size: cover;
+        position: relative;
+        top: 5.3em;
+        left: -0.5em;
+        display: inline-flex;
+        border-radius: 13%;
+    }
+
+    .ico-sobre {
+        width: 7vh;
+        height: 5vh;
+        background-image: url('/static/wedding/iconos/empty-email.svg');
+        background-size: cover;
+        position: relative;
+        top: 5em;
+        left: 2.5em;
+        display: inline-flex;
+    }
+
+    .text-vestimenta {
+        font-size: 1em;
+        position: relative;
+        top: -5em;
+    }
+
+    .text-ejemplo {
+        font-size: 1em;
+        font-weight: bold;
+        position: relative;
+        top: -4em;
+        left: 0em;
+    }
+
+    .text-formal {
+        font-size: 1em;
+        position: relative;
+        top: -7em;
+    }
+
+    /* ---- TERMINA SECCIÓN 5 --- */
+
+    /* ---- INICIA SECCIÓN 6 --- */
+    .fwh-slider--6 {
+        background-color: #f5f6fa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rectangulo-5 {
+        position: relative;
+        top: -40%;
+        width: 80%;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .searchForm {
+        position: relative;
+        top: -6em;
+        left: 0em;
+    }
+
+    .selectAsistencia {
+        position: relative;
+        left: 4.5em;
+    }
+
+    .label-form {
+        position: relative;
+        left: 3.5em;
+    }
+
+    .button-buscar {
+        position: relative;
+        left: 6em;
+    }
+
+    .label-form1 {
+        position: relative;
+        top: 11em;
+        left: 33.7em;
+        font-size: 1.6em;
+    }
+
+    .label-form2 {
+        position: relative;
+        top: 11em;
+        left: 32em;
+        font-size: 1.6em;
+    }
+
+    .label-form3 {
+        position: relative;
+        top: -4em;
+        left: 1em;
+        font-size: 1.6em;
+    }
+
+    .label-form4 {
+        position: relative;
+        font-size: 1.3em;
+        left: 4em;
+        bottom: 3em;
+    }
+
+    .input-invitados {
+        position: relative;
+        top: -6em;
+        left: 0em;
+    }
+
+    .input-asistentes {
+        position: relative;
+        top: -3em;
+        left: 0em;
+    }
+
+    .button-registrar {
+        position: relative;
+        top: 0em;
+        left: 5.1em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    /* ---- TERMINA SECCIÓN 6 --- */
+
+    /* ---- INICIA SECCIÓN 7 --- */
+    .fwh-slider--7 {
+        background-size: 40%;
+        background-image: url("/static/wedding/img/fondo_despedida.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .agradecimiento {
+        position: relative;
+        font-family: 'Italianno';
+        text-align: center;
+        font-size: 2.2em;
+        top: 10em;
+    }
+    
+    /* ---- TERMINA SECCIÓN 7 --- */
+
+    .form-bride {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        margin: 29em;
+    }
+
+    .input-inv {
+        position: relative;
+        bottom: 3em;
+    }
+    
+    .input-asis {
+        position: relative;
+        bottom: 1em;
+    }
+
+    .button-reg {
+        position: relative;
+        top: 1em;
+    }
+
+    .add-invitados {
+        position: relative;
+        font-size: 3.3em;
+        top: 3em;
+        left: 14em;;
+    }
+}
+/* } */

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block content %}
+
+    <h1 class = "add-invitados"> Agregar invitados </h1>
+    <a href = "{% url 'wedding:guests_table' %}"> Tabla de invitados </a> 
+
+    <form method = "POST" class = "form-bride">
+        {% csrf_token %}
+        {{form.identifier}}
+
+        {{form.num_guests_assigned}}
+
+        <button type = "submit" class = "button-reg h-12 min-w-[8rem] rounded-lg border-2 border-white-600 bg-white-500 text-white-50 shadow-lg hover:bg-white-600 focus:outline-none focus:ring focus:ring-white-600"> Registrar </button>
+    </form>
+
+{% endblock content %}
