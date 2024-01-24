@@ -13,7 +13,7 @@ class Guests(models.Model):
     num_guests_assigned = models.IntegerField(max_length = 10)
     num_guests_selected = models.IntegerField(max_length = 10, null = True, blank = True)
     answer = models.CharField(max_length = 100, blank = True, null = True, choices = answer_choices, default = "Pendiente") 
-    guests_names = models.CharField(max_length = 500, blank = True, null = True)
+    guests_names = models.CharField(max_length = 800, blank = True, null = True)
     wish_text = models.TextField(blank = True, null = True)
     
     def __str__(self):
