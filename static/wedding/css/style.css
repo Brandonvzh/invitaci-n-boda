@@ -71,7 +71,7 @@
     .row {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 26em;
+        padding: 0 19em;
         position: relative;
         top: 2em;
     }
@@ -100,10 +100,10 @@
     
     .rectangulo {
         position: relative;
-        top: 1em;
-        left: 12em;
-        width: 74em;
+        top: 5em;
+        width: 24em;
         height: 5em;
+        margin-left: 36em;
         background-color: #ffffff;
         color: #000000;
         padding: 1em;
@@ -299,8 +299,8 @@
     .rectangulo-2 {
         position: relative;
         top: 1em;
-        left: 48em;
-        width: 26em;
+        margin-left: 41em;
+        width: 24em;
         height: 4em;
         background-color: #ffffff;
         color: #000000;
@@ -313,7 +313,7 @@
         position: relative;
         width: 40em;
         top: -6em;
-        left: 42em;
+        margin-left: 34em;
         border-radius: 6%;
     }
 
@@ -322,7 +322,7 @@
         width: 40em;
         top: -19em;
         border-radius: 6%;
-        left: 42em;
+        margin-left: 34em;
     }
 
     .ico-iglesia-2 {
@@ -332,7 +332,7 @@
         background-size: cover;
         position: relative;
         top: -19em;
-        left: 87.9em;
+        margin-left: 80.9em;
         display: inline-flex;
     }
 
@@ -343,13 +343,13 @@
         background-size: cover;
         position: relative;
         top: -32em;
-        left: 87.9em;
+        margin-left: 80.9em;
         display: inline-flex;
     }
 
     .txt-vertical-1 {
         position: relative;
-        left: 15em;
+        margin-left: 11em;
         transform: rotate(180deg);
         transform-origin: left bottom;
         white-space: nowrap;
@@ -361,7 +361,7 @@
 
     .txt-vertical-2 {
         position: relative;
-        left: 15em;
+        margin-left: 11em;
         transform: rotate(180deg);
         transform-origin: left bottom;
         white-space: nowrap;
@@ -374,14 +374,14 @@
     .txt-direccion-1 {
         position: relative;
         top: -7em;
-        left: 47em;
+        margin-left: 40em;
         font-size: 1.1em;
     }
 
     .txt-direccion-2 {
         position: relative;
         top: -19em;
-        left: 47em;
+        margin-left: 40em;
         font-size: 1.1em;
     }
     /* ---- TERMINA SECCIÓN 4 --- */
@@ -400,7 +400,7 @@
         padding: 1em;
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        left: 51em;
+        margin-left: 43em;
     }
 
     .rectangulo-4 {
@@ -412,7 +412,7 @@
         padding: 20px;
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        left: 51em;
+        margin-left: 43em;
     }
 
     .ico-vestimenta {
@@ -422,7 +422,7 @@
         background-size: cover;
         position: relative;
         top: 4em;
-        left: 52.5em;
+        margin-left: 45.5em;
         display: inline-flex;
     }
 
@@ -433,7 +433,7 @@
         background-size: cover;
         position: relative;
         top: 20em;
-        left: 49.5em;
+        margin-left: 39.5em;
         display: inline-flex;
     }
 
@@ -443,8 +443,8 @@
         background-image: url('/static/wedding/iconos/empty-email.svg');
         background-size: cover;
         position: relative;
-        top: 20em;
-        left: 60.5em;
+        top: 15.5em;
+        margin-left: 62.5em;
         display: inline-flex;
     }
 
@@ -452,7 +452,7 @@
         font-size: 1em;
         position: relative;
         top: 7em;
-        left: 54em;
+        margin-left: 46em;
     }
 
     .text-ejemplo {
@@ -460,14 +460,14 @@
         font-weight: bold;
         position: relative;
         top: 7em;
-        left: 58em;
+        margin-left: 51em;
     }
 
     .text-formal {
         font-size: 1.3em;
         position: relative;
         top: 5em;
-        left: 46em;
+        margin-left: 40em;
     }
 
     /* ---- TERMINA SECCIÓN 5 --- */
@@ -486,64 +486,74 @@
         padding: 20px;
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        left: 50em;
+        margin-left: 44em;
     }
 
     .searchForm {
         position: relative;
         top: 27em;
-        left: 47em;
+        margin-left: 44em;
     }
 
     .selectAsistencia {
         position: relative;
-        left: 8em;
+        margin-left: 5em;
+    }
+
+    .label-form {
+        position: relative;
+        top: -1em;
+        margin-left: -0.5em;
+        font-size: 1.6em;
     }
 
     .label-form1 {
         position: relative;
         top: 11em;
-        left: 33.7em;
+        margin-left: 30em;
         font-size: 1.6em;
     }
 
     .label-form2 {
         position: relative;
         top: 11em;
-        left: 32em;
+        margin-left: 28.2em;
         font-size: 1.6em;
     }
 
     .label-form3 {
         position: relative;
         top: -3em;
-        left: 3.4em;
+        margin-left: 1.5em;
         font-size: 1.6em;
     }
 
     .label-form4 {
         position: relative;
         font-size: 1.3em;
-        left: 7em;
+        margin-left: 4.4em;
         bottom: 3em;
     }
 
     .input-invitados {
         position: relative;
         top: -6em;
-        left: 3em;
     }
 
     .input-asistentes {
         position: relative;
         top: -3em;
-        left: 3em;
+    }
+
+    .button-buscar {
+        position: relative;
+        margin-left: 6em;
     }
 
     .button-registrar {
         position: relative;
         top: 0em;
-        left: 9em;
+        margin-left: 6em;
         justify-content: center;
         text-align: center;
         align-items: center;
