@@ -911,56 +911,78 @@
 
     .img-iglesia {
         position: relative;
-        width: 70%;
-        bottom: 39%;
-        left: 23%;
+        width: 14em;
+        bottom: 7em;
+        margin-left: 1em;
         border-radius: 6%;
     }
 
     .img-salon {
         position: relative;
-        width: 70%;
-        top: -14%;
+        width: 14em;
+        bottom: 8em;
         border-radius: 6%;
-        left: 23%;
+        margin-left: 1em;
     }
 
     .txt-vertical-1 {
         position: relative;
-        left: 13%;
+        margin-left: 0em;
         transform: rotate(180deg);
         transform-origin: left bottom;
         white-space: nowrap;
         writing-mode: vertical-rl;
         font-family: 'Cabin';
-        top: -22%;
+        top: -4.5em;
         font-size: 19px;
     }
 
     .txt-vertical-2 {
         position: relative;
-        left: 13%;
+        margin-left: 0em;
         transform: rotate(180deg);
         transform-origin: left bottom;
         white-space: nowrap;
         writing-mode: vertical-rl;
         font-family: 'Cabin';
-        top: 3%;
+        top: -5em;
         font-size: 19px;
     }
 
     .txt-direccion-1 {
         position: relative;
-        bottom: 50%;
-        left: 27%;
+        bottom: 10em;
+        left: 1.5em;
         font-size: smaller;
     }
 
     .txt-direccion-2 {
         position: relative;
-        bottom: 23%;
-        left: 27%;
+        bottom: 10em;
+        margin-left: 1.5em;
         font-size: smaller;
+    }
+
+    .ico-iglesia-2 {
+        width: 8vh;
+        height: 8vh;
+        background-image: url(/static/wedding/iconos/iglesia.png);
+        background-size: cover;
+        position: relative;
+        bottom: 5em;
+        margin-left: 5em;
+        display: inline-flex;
+    }
+
+    .ico-fiesta-2 {
+        width: 8vh;
+        height: 8vh;
+        background-image: url(/static/wedding/iconos/Recepción\ Jardin.png);
+        background-size: cover;
+        position: relative;
+        bottom: 7em;
+        margin-left: 5em;
+        display: inline-flex;
     }
     /* ---- TERMINA SECCIÓN 4 --- */
 
