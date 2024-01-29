@@ -21,10 +21,13 @@ const getData = async (code) => {
         // console.log(response);
 
         const data = await response.json();
+        console.log(data);
 
         document.getElementById("code").style.display = 'none';
         document.getElementById("code_submit").style.display = 'none';
         document.getElementById("labelInvitacion").style.display = 'none';
+        document.getElementById("no-codigo").style.display = 'none';
+        document.getElementById("intento").style.display = 'none';
 
         document.getElementById("label-asistencia").style.display = "flex";
         document.getElementById("select-asistencia").style.display = "flex";
@@ -37,7 +40,15 @@ const getData = async (code) => {
         // console.log(data[0]['num_guests_assigned']);
         // console.log(data[0]['identifier']);
     } catch (error) {
-        console.log(error);
+        document.getElementById("intento").style.display = 'flex';
+        document.getElementById("no-codigo").style.display = 'flex';
+        document.getElementById("no-codigo").textContent = `No se encontró registro del código.`;
+        document.getElementById("intento").textContent = `Volver a escribir código:`;
+        document.getElementById("label-asistencia").style.display = "none";
+        document.getElementById("select-asistencia").style.display = "none";
+        document.getElementById("code").value = "";
+        document.getElementById("code").style.display = "flex"; 
+        document.getElementById("code_submit").style.display = 'flex';
     }
 }
 

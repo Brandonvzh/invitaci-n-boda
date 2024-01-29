@@ -4,7 +4,7 @@
 {% block content %}
 
     <h1 class = "add-invitados"> Agregar invitados </h1>
-    <a href = "{% url 'wedding:guests_table' %}"> Tabla de invitados </a> 
+    <a class = "a-guestadata" href = "{% url 'wedding:guests_table' %}"> Tabla de invitados </a> 
 
     <form method = "POST" class = "form-bride">
         {% csrf_token %}

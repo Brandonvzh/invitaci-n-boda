@@ -19,5 +19,5 @@ def get_guests_data(request, data):
             serializer = GuestsAPI(queryset, many = True)
             return Response(serializer.data, status = status.HTTP_200_OK)
     elif not queryset:
-        return Response({"error": "No se encontraron registros para el mes dado."}, status=status.HTTP_404_NOT_FOUND)
+        return Response({"error": "No se encontraron registros."}, status=status.HTTP_404_NOT_FOUND)
 

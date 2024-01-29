@@ -607,7 +607,28 @@
         position: relative;
         font-size: 3.3em;
         top: 3em;
-        left: 14em;;
+        left: 11.5em;;
+    }
+
+    .a-guestadata {
+        position: relative;
+        font-size: 1.3em;
+        left: 3.5em;
+        font-weight: bolder;
+    }
+
+    .label-form-no {
+        position: relative;
+        top: 5em;
+        margin-left: 26em;
+        font-size: 1.6em;
+    }
+
+    .label-form-intento {
+        position: relative;
+        top: 6em;
+        margin-left: 28.5em;
+        font-size: 1.6em;
     }
 }
 
@@ -1130,6 +1151,20 @@
         top: 11em;
         left: 33.7em;
         font-size: 1.6em;
+    }
+
+    .label-form-no {
+        position: relative;
+        bottom: 21em;
+        margin-left: 3em;
+        font-size: 1em;
+    }
+
+    .label-form-intento {
+        position: relative;
+        bottom: 21em;
+        margin-left: 5em;
+        font-size: 1em;
     }
 
     .label-form2 {
