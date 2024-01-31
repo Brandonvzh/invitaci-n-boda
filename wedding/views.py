@@ -73,9 +73,6 @@ def update_data(request, pk):
 
 def copy_data(request):
     if request.method == "GET":
-        for instance in models.Guests.objects.all():
-            instance.num_guests_selected_char = str(instance.num_guests_selected)
-            print(str(instance.num_guests_selected))
-            instance.save()
-    
+        query = models.Guests.objects.all()
+        print(query[0].num_guests_selected_char)
     return render(request, "x.html", {})
