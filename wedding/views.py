@@ -69,4 +69,12 @@ def update_data(request, pk):
         if form.is_valid():
             form.save()
             return redirect('wedding_invitation_view')
-        
+
+
+def copy_data(request):
+    if request.method == "GET":
+        for instance in models.Guests.objects.all():
+            instance.num_guests_selected_char = str(instance.num_guests_selected)
+            instance.save()
+    
+    return render(request, "x.html", {})
