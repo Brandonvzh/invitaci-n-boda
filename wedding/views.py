@@ -56,6 +56,10 @@ def wedding_invitation_view(request):
 def guests_table(request):
     if request.method == "GET":
         guests_query = models.Guests.objects.all()
+    if request.method == "POST":
+        eliminar = request.POST.get('boton-eliminar', None)
+        models.Guests.objects.filter(id = eliminar).delete()
+        guests_query = models.Guests.objects.all()
     return render(request, "guests_table.html", {'guests': guests_query})
 
 
